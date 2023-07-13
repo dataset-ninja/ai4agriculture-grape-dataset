@@ -5,25 +5,29 @@ from dataset_tools.templates import AnnotationType, CVTask, Industry, Domain, Re
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = None
-PROJECT_NAME_FULL: str = None
+PROJECT_NAME: str = "AI4Agriculture Grape Dataset"
+PROJECT_NAME_FULL: str = "AI4Agriculture Grape Dataset"
 
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = None
-APPLICATIONS: List[Union[Industry, Domain, Research]] = None
-CV_TASKS: List[CVTask] = None
-ANNOTATION_TYPES: List[AnnotationType] = None
+LICENSE: License = License.Apache_2_0()
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [
+    Industry.Agriculture(),
+    Domain.General(),
+    Research.Biological(),
+]
+CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
+ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
 
-RELEASE_YEAR: int = None
-HOMEPAGE_URL: str = None
+RELEASE_YEAR: int = 2021
+HOMEPAGE_URL: str = "https://zenodo.org/record/5660081#.ZGUTO3bMIuW"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = None
+PREVIEW_IMAGE_ID: int = 1672220
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
-GITHUB_URL: str = None
+GITHUB_URL: str = "https://github.com/dataset-ninja/ai4agriculture-grape-dataset"
 # URL to GitHub repo on dataset ninja (e.g. "https://github.com/dataset-ninja/some-dataset")
 
 ##################################
