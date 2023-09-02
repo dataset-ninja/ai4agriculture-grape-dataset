@@ -20,7 +20,7 @@ HIDE_DATASET = True
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.Apache_2_0()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Agriculture()]
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Agricultural()]
 CATEGORY: Category = Category.Agriculture()
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
