@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "AI4Agriculture Grape"
 PROJECT_NAME_FULL: str = "AI4Agriculture Grape Dataset"
-
+HIDE_DATASET = True
 ##################################
 # * After uploading to instance ##
 ##################################
@@ -91,6 +91,7 @@ def get_settings():
     settings = {
         "project_name": PROJECT_NAME,
         "license": LICENSE,
+        "hide_dataset": HIDE_DATASET,
         "applications": APPLICATIONS,
         "category": CATEGORY,
         "cv_tasks": CV_TASKS,
