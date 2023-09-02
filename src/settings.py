@@ -13,7 +13,7 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "AI4Agriculture Grape Dataset"
+PROJECT_NAME: str = "AI4Agriculture Grape"
 PROJECT_NAME_FULL: str = "AI4Agriculture Grape Dataset"
 
 ##################################
