@@ -1,6 +1,8 @@
-Please visit dataset [homepage](https://zenodo.org/record/5660081#.ZGUTO3bMIuW) to download the data. 
+Dataset **AI4Agriculture Grape Dataset** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
-Afterward, you have the option to download it in the universal supervisely format by utilizing the *dataset-tools* package:
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/T/a/mk/vbyyw7ZOowKZYSdYCYJXxgL70S10WPgmq47Nk6z6O9Xt5HflEhKUUHzUb6omEzrSgjlAlEldNSmvsJYnaB0yjvxSVZSLtZwp3U4iWyZMSYPOKOi5xh1lAQGFjxd2.tar)
+
+As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
 pip install --upgrade dataset-tools
 ```
@@ -9,5 +11,10 @@ pip install --upgrade dataset-tools
 ``` python
 import dataset_tools as dtools
 
-dtools.download(dataset='AI4Agriculture Grape Dataset', dst_path='~/dtools/datasets/AI4Agriculture Grape Dataset.tar')
+dtools.download(dataset='AI4Agriculture Grape Dataset', dst_dir='~/dataset-ninja/')
 ```
+Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
+
+The data in original format can be downloaded here:
+
+- [ai4agriculture_2020.zip](https://zenodo.org/record/5660081/files/ai4agriculture_2020.zip?download=1)
