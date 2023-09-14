@@ -50,7 +50,7 @@ DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = {
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
-PAPER: Optional[str] = None
+PAPER: Optional[str] = "https://drive.google.com/file/d/1k5r4mMRD8123N7q-4D3APnwkpER8G6lw/view"
 CITATION_URL: Optional[str] = "https://zenodo.org/record/5660081/export/hx"
 AUTHORS: Optional[List[str]] = [
     "Josep Ramon Morros",
