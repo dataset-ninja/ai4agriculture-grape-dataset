@@ -66,7 +66,13 @@ AUTHORS: Optional[List[str]] = [
     "George Stamoulis",
 ]
 
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Universitat Politècnica de Catalunya, Spain"
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
+    "Universitat Politècnica de Catalunya, Spain",
+    "ATOS",
+    "SmartRural",
+    "German Aerospace Center",
+    "National and Kapodistrian University of Athens",
+]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://www.upc.edu/"
 
 SLYTAGSPLIT: Optional[Dict[str, List[str]]] = None
