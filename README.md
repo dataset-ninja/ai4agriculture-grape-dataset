@@ -1,3 +1,3 @@
 # AI4Agriculture Grape Dataset
 
-AI4Agriculture Grape Dataset is a dataset for object detection task.
+AI4Agriculture Grape is a dataset for object detection task tasks.
