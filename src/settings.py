@@ -76,10 +76,10 @@ AUTHORS: Optional[List[str]] = [
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
     "Universitat Politècnica de Catalunya, Spain",
-    "ATOS",
-    "SmartRural",
+    "ATOS, France",
+    "SmartRural,  UK",
     "German Aerospace Center",
-    "National and Kapodistrian University of Athens",
+    "National & Kapodistrian University of Athens",
 ]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
     "https://www.upc.edu/",
