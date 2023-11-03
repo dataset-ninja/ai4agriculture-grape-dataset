@@ -73,6 +73,7 @@ AUTHORS: Optional[List[str]] = [
     "Despina-Athanasia Pantazi",
     "George Stamoulis",
 ]
+AUTHORS_CONTACTS: Optional[List[str]] = ["ramon.morros@upc.edu"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
     "Universitat Politècnica de Catalunya, Spain",
@@ -138,6 +139,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
