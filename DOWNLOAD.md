@@ -1,6 +1,6 @@
 Dataset **AI4Agriculture Grape Dataset** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/cmqe1ocfoxcchlhzew7m6/ai4agriculture-grape-dataset-DatasetNinja.tar?rlkey=bgj6zyiao2q2nbn01r5gc5cm9&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzEzODVfQUk0QWdyaWN1bHR1cmUgR3JhcGUgRGF0YXNldC9haTRhZ3JpY3VsdHVyZS1ncmFwZS1kYXRhc2V0LURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogInhjVnZPR2c5aW1PbTZpTXlkeHdxQk82UzZ4Vnh3VWg3QjBxK1dOYWJQSDQ9In0=)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
